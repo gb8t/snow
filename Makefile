@@ -35,6 +35,6 @@ build/assets/%.bmp.c: assets/%.bmp
 
 .PHONY: clean
 clean:
-	rm -rf build
+	rm -rf build game
 
 -include $(OBJS:.o=.d)
